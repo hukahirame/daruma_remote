@@ -1,0 +1,374 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ja' Physical Memory: 32531 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/蠕ｳ蟯｡諡捺ｵｷ/Experiment
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60097
+Successfully changed project path to: C:/Users/蠕ｳ蟯｡諡捺ｵｷ/Experiment
+C:/Users/蠕ｳ蟯｡諡捺ｵｷ/Experiment
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12816] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 34292374 [EditorId] 34292374 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S9KTAE1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12816] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 34292374 [EditorId] 34292374 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S9KTAE1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/蠕ｳ蟯｡諡捺ｵｷ/Experiment/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12143 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002814 seconds.
+- Loaded All Assemblies, in  0.288 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.165 seconds
+Domain Reload Profiling: 453ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (166ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (130ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\蠕ｳ蟯｡諡捺ｵｷ\Experiment\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\蠕ｳ蟯｡諡捺ｵｷ\Experiment\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.547 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.299 seconds
+Domain Reload Profiling: 844ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (275ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (249ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (299ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (208ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3533.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 1.935300 ms (FindLiveObjects: 0.139100 ms CreateObjectMapping: 0.052600 ms MarkObjects: 1.675200 ms  DeleteObjects: 0.067300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 496123.651804 seconds.
+  path: Assets/Toon Furniture
+  artifactKey: Guid(fd91a92f5a953474e90e57a7e4116910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture using Guid(fd91a92f5a953474e90e57a7e4116910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daf001b81fe0e7c1ba9ae5b8d224120') in 0.001855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.318904 seconds.
+  path: Assets/Toon Furniture/Models
+  artifactKey: Guid(c0cc19da1bcbd9040bf9a0cd7f6c265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models using Guid(c0cc19da1bcbd9040bf9a0cd7f6c265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2571744339d37e14a41512b10b980653') in 0.000309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059260 seconds.
+  path: Assets/Toon Furniture/Models/Ball_1_1.fbx
+  artifactKey: Guid(77ac052cdde4bce4b9c521de187308df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Ball_1_1.fbx using Guid(77ac052cdde4bce4b9c521de187308df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5926b69158fa8808effb0e72d7c8bed9') in 0.358262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon Furniture/Models/Couch_1.fbx
+  artifactKey: Guid(ac59d41bde6224c4089a0cfbf902d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Couch_1.fbx using Guid(ac59d41bde6224c4089a0cfbf902d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4570f4832f2ab64eaa039debcfc74358') in 0.029053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Furniture/Models/Counter_2.fbx
+  artifactKey: Guid(83bfbbc6ac9032c46a97d37cbca3d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Counter_2.fbx using Guid(83bfbbc6ac9032c46a97d37cbca3d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3477d108fdbdffa076e05447844651') in 0.026649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Furniture/Models/Vase_2.fbx
+  artifactKey: Guid(b03d5f3f2eca98d48b2313818063bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Vase_2.fbx using Guid(b03d5f3f2eca98d48b2313818063bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6bda66b515f72eeeea1d74fb422a95') in 0.050193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_3.fbx
+  artifactKey: Guid(45276210d7d92ae439d4f9ba0fd6f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_3.fbx using Guid(45276210d7d92ae439d4f9ba0fd6f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790b9d63ffa2e26a47638257a891fdb4') in 0.028644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toon Furniture/Models/Counter_1.fbx
+  artifactKey: Guid(aaeedb2a45100ea4091935025fdd110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Counter_1.fbx using Guid(aaeedb2a45100ea4091935025fdd110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437e31f8e485ac2bde6ce5f19ea3cc2f') in 0.020886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Furniture/Models/House_Plant_1_1.fbx
+  artifactKey: Guid(93b7804c0d2944540afe34ed14ff76d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/House_Plant_1_1.fbx using Guid(93b7804c0d2944540afe34ed14ff76d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f83f081f5c9fd8bb7150ef22b3674c') in 0.103640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_1.fbx
+  artifactKey: Guid(844fae422a50aab4f9e8d285bad1c241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_1.fbx using Guid(844fae422a50aab4f9e8d285bad1c241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d85a27065125174f9fe34049534e395') in 0.020267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_2.fbx
+  artifactKey: Guid(5482ee8af0d724341b96cd2c062f6baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_2.fbx using Guid(5482ee8af0d724341b96cd2c062f6baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe31e8821dd6322795c66a7f63a6f16') in 0.016365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Furniture/Models/Refrigerator.fbx
+  artifactKey: Guid(30ea37132d76e624eacbf2b75cb5f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Refrigerator.fbx using Guid(30ea37132d76e624eacbf2b75cb5f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8be39dfabf0225a04052daad62834fd') in 0.017380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon Furniture/Models/Chair_1.fbx
+  artifactKey: Guid(fafae49f08dbf0b4c82fbf9d5efda973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_1.fbx using Guid(fafae49f08dbf0b4c82fbf9d5efda973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e53957a60424ee78634acbac7ffef8d') in 0.017289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon Furniture/Models/BookCase_2.fbx
+  artifactKey: Guid(aa588f75104cb8042acf31263cd73619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/BookCase_2.fbx using Guid(aa588f75104cb8042acf31263cd73619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26ae8c14cad75dd42260893d6b3c312') in 0.015508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon Furniture/Models/Cooker_1.fbx
+  artifactKey: Guid(94cd5fa7d84e65045b1ab6e8fc78c044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Cooker_1.fbx using Guid(94cd5fa7d84e65045b1ab6e8fc78c044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3c72f3e77ac3340b614b5e3b258a68') in 0.018054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon Furniture/Models/Pillows_1.fbx
+  artifactKey: Guid(bc7c26d9e5732fb4e9694d56f647dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Pillows_1.fbx using Guid(bc7c26d9e5732fb4e9694d56f647dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f05e7975d70318b8f372c637ff9b236') in 0.022852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Furniture/Models/Refrigerator_2.fbx
+  artifactKey: Guid(fd86dd3bb815de54fb8f5d719048bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Refrigerator_2.fbx using Guid(fd86dd3bb815de54fb8f5d719048bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0808fa1ea1ecd5db3d8c55ec69456f') in 0.020652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toon Furniture/Models/Sink.fbx
+  artifactKey: Guid(e83052825161ca9489eb21555ff606d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Sink.fbx using Guid(e83052825161ca9489eb21555ff606d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f87b46a7dcc7f97a3a32e2452cb1257') in 0.018495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon Furniture/Models/Chair_7.fbx
+  artifactKey: Guid(e26192968d537f143a47e72dfefb548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_7.fbx using Guid(e26192968d537f143a47e72dfefb548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a509e89463e3b6d4c53da67b850f091') in 0.017167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Furniture/Models/Chair_2.fbx
+  artifactKey: Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_2.fbx using Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badd2220eead9f459c2d869588107be9') in 0.018437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon Furniture/Models/Counter_4.fbx
+  artifactKey: Guid(72616aa566640fa4498901aa2e09543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Counter_4.fbx using Guid(72616aa566640fa4498901aa2e09543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d94baed535cbf6921bcf51dfadf7fb') in 0.065367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon Furniture/Models/Chair_5.fbx
+  artifactKey: Guid(57715435b4fec704fa35cec6763c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_5.fbx using Guid(57715435b4fec704fa35cec6763c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb592d7c9a65212c9ae81b31ee944f2') in 0.016857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toon Furniture/Models/headboard_1.fbx
+  artifactKey: Guid(22594f653b29cb2488a78553895e4d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/headboard_1.fbx using Guid(22594f653b29cb2488a78553895e4d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56265ca499d38794df97bbfc1e1451b2') in 0.021344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon Furniture/Models/Chair_3.fbx
+  artifactKey: Guid(56143fa81708d6647bc92eab52aa58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_3.fbx using Guid(56143fa81708d6647bc92eab52aa58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ad412c4b9a8a07aba8e56658fd351f') in 0.015909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

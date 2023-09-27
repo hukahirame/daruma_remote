@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody rb;
-    public float speed=2000;
+    public float speed;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -13,9 +13,9 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("w")) rb.AddForce(new Vector3(0,0,speed));
-        else if (Input.GetKeyDown("s")) rb.AddForce(new Vector3(0, 0, -speed));
-        else if (Input.GetKeyDown("a")) rb.AddForce(new Vector3(-speed, 0, 0));
-        else if (Input.GetKeyDown("d")) rb.AddForce(new Vector3(speed, 0, 0));
+        if (Input.GetKey("w")) transform.position += new Vector3(0, 0, speed * Time.deltaTime);
+        else if (Input.GetKey("s")) transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
+        else if (Input.GetKey("a")) transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+        else if (Input.GetKey("d")) transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
     }
 }
