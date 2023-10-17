@@ -15,7 +15,7 @@ C:/Users/castl/OneDrive/ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ/daruma local
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50621
+51250
 Successfully changed project path to: C:/Users/castl/OneDrive/ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ/daruma local
 C:/Users/castl/OneDrive/ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ/daruma local
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/castl/OneDrive/ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ/daruma local
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15532] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 818907452 [EditorId] 818907452 [Version] 1048832 [Id] WindowsEditor(7,delta) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3188] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2642086871 [EditorId] 2642086871 [Version] 1048832 [Id] WindowsEditor(7,delta) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15532] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 818907452 [EditorId] 818907452 [Version] 1048832 [Id] WindowsEditor(7,delta) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3188] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 2642086871 [EditorId] 2642086871 [Version] 1048832 [Id] WindowsEditor(7,delta) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 10.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007465 seconds.
-- Loaded All Assemblies, in  0.268 seconds
+Registered in 0.007996 seconds.
+- Loaded All Assemblies, in  0.346 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.200 seconds
-Domain Reload Profiling: 465ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.231 seconds
+Domain Reload Profiling: 575ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (97ms)
-		LoadAssemblies (81ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (90ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (81ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (139ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (200ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (232ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (158ms)
+		SetupLoadedEditorAssemblies (180ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,51 +116,51 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\castl\OneDrive\ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ\daruma local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\castl\OneDrive\ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ\daruma local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.642 seconds
-Refreshing native plugins compatible for Editor in 6.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.758 seconds
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.393 seconds
-Domain Reload Profiling: 1029ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.424 seconds
+Domain Reload Profiling: 1176ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (434ms)
-		LoadAssemblies (270ms)
+	LoadAllAssembliesAndSetupDomain (565ms)
+		LoadAssemblies (272ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (210ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (310ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (393ms)
+	FinalizeReload (424ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (288ms)
+		SetupLoadedEditorAssemblies (295ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (200ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (205ms)
 			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3068 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.5 KB). Loaded Objects now: 3537.
 Memory consumption went from 117.5 MB to 117.4 MB.
-Total: 2.534100 ms (FindLiveObjects: 0.182800 ms CreateObjectMapping: 0.071200 ms MarkObjects: 2.195400 ms  DeleteObjects: 0.084100 ms)
+Total: 3.617100 ms (FindLiveObjects: 0.205700 ms CreateObjectMapping: 0.071800 ms MarkObjects: 3.250300 ms  DeleteObjects: 0.088600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -176,130 +176,247 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\castl\OneDrive\ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ\daruma local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\castl\OneDrive\ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ\daruma local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.555 seconds
-Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.927 seconds
-Domain Reload Profiling: 1477ms
-	BeginReloadAssembly (131ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (355ms)
-		LoadAssemblies (237ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (166ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (927ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (286ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (190ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3540.
-Memory consumption went from 116.6 MB to 116.5 MB.
-Total: 2.554400 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.222400 ms  DeleteObjects: 0.040500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 67621.047351 seconds.
+  path: Assets/Bed & Bath Furniture Pack
+  artifactKey: Guid(655ebb4735841954fb233dc192e66874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack using Guid(655ebb4735841954fb233dc192e66874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491858890e6436add72e5c5a844346d7') in 0.002011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\castl\OneDrive\ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ\daruma local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\castl\OneDrive\ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ\daruma local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.543 seconds
-Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.853 seconds
-Domain Reload Profiling: 1391ms
-	BeginReloadAssembly (126ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (353ms)
-		LoadAssemblies (233ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (165ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (853ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (262ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (170ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3543.
-Memory consumption went from 116.6 MB to 116.5 MB.
-Total: 2.414700 ms (FindLiveObjects: 0.221900 ms CreateObjectMapping: 0.073700 ms MarkObjects: 2.079300 ms  DeleteObjects: 0.038900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1.147118 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials
+  artifactKey: Guid(8fbb907c7b9cf2d47b3e6620eaa4a530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials using Guid(8fbb907c7b9cf2d47b3e6620eaa4a530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948b8dfcceba8dff92ccbef7b0a5ad50') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.040886 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Bathtub.mat
+  artifactKey: Guid(fb4a7718ec59d14428d8779a41869c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Bathtub.mat using Guid(fb4a7718ec59d14428d8779a41869c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b5381a320d94eac74e1a269336d3e1') in 0.510672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Nightstand Drawers.mat
+  artifactKey: Guid(203196af9c28d4c4fac822ea4ad13fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Nightstand Drawers.mat using Guid(203196af9c28d4c4fac822ea4ad13fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4d333bc26293666bc83b4b8db1b810') in 0.031780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Sink.mat
+  artifactKey: Guid(8dfbb535d399e334a82c6ba9c04fd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Sink.mat using Guid(8dfbb535d399e334a82c6ba9c04fd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b670dc17e7214f4a3d6c4bef682be1') in 0.016870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Lamp.mat
+  artifactKey: Guid(726dfc65340b62e4f8b5aae8e1684d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Lamp.mat using Guid(726dfc65340b62e4f8b5aae8e1684d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4ec04dbd9a798e0eaad5e8b05df285') in 0.168936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Footstool.mat
+  artifactKey: Guid(a7c68bb28bfd8574f81a1ab34b646eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Footstool.mat using Guid(a7c68bb28bfd8574f81a1ab34b646eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3758e9cec375db94180ff9ed2cb428') in 0.017698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Toilet.mat
+  artifactKey: Guid(ef85546b32ef05041b0fe3d5c1551a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Toilet.mat using Guid(ef85546b32ef05041b0fe3d5c1551a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd82c35df2cc734e963f0eae98357bc') in 0.017483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Dresser Dresser.mat
+  artifactKey: Guid(220bfb2cf5588a24f896a312c6edfc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Dresser Dresser.mat using Guid(220bfb2cf5588a24f896a312c6edfc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e9b80c0e22489ca9378b4861d529db') in 0.017505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Frame.mat
+  artifactKey: Guid(98499b7b53755e34c83b530a9834dd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Frame.mat using Guid(98499b7b53755e34c83b530a9834dd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede06f62da2421f62b08424d832d4d2c') in 0.017293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Dresser Drawers.mat
+  artifactKey: Guid(446d649419093714c90cd8a2cc402349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Dresser Drawers.mat using Guid(446d649419093714c90cd8a2cc402349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d6a0d28855529227d4ef3ad77f5c57') in 0.010971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.752178 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures
+  artifactKey: Guid(3a643b642e3c7484e8791aef241fb43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures using Guid(3a643b642e3c7484e8791aef241fb43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b8e98f96cc80550113cfadff829ed5') in 0.000592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.087925 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bathtub_Bathtub_AlbedoTransparency.png
+  artifactKey: Guid(ed2fc3213d1d19e4f80efef44bb68b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bathtub_Bathtub_AlbedoTransparency.png using Guid(ed2fc3213d1d19e4f80efef44bb68b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eb9eea21917e416e9cb73956553e51') in 0.026195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_Normal.png
+  artifactKey: Guid(8f47d1ceba5f10e4e845e287f58765fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_Normal.png using Guid(8f47d1ceba5f10e4e845e287f58765fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1270ff6db1bbd6f9b8a5c60eadc6157') in 0.026489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Dresser_AlbedoTransparency.png
+  artifactKey: Guid(3e51db223e7c404409121ba8efebaa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Dresser_AlbedoTransparency.png using Guid(3e51db223e7c404409121ba8efebaa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decf8c063295a5d17a1df10b9cb0f702') in 0.014307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Toilet_Toilet_AlbedoTransparency.png
+  artifactKey: Guid(c3e6d633f2031b54ab1cfb032c2384e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Toilet_Toilet_AlbedoTransparency.png using Guid(c3e6d633f2031b54ab1cfb032c2384e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2772a4cbd73842acb3eed8e1e3a73607') in 0.014756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Sink_initialShadingGroup_Normal.png
+  artifactKey: Guid(f1a44cd0d8b0451428b9be35ce0f6a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Sink_initialShadingGroup_Normal.png using Guid(f1a44cd0d8b0451428b9be35ce0f6a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42299f0ba0b4f2f6d81e84f5754ef73f') in 0.020395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Footstool_Footstool_MetallicSmoothness.png
+  artifactKey: Guid(bee102f2b2c45c24e8351ca9fabde9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Footstool_Footstool_MetallicSmoothness.png using Guid(bee102f2b2c45c24e8351ca9fabde9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced480dbc4a813730e0a7cd4cdb62fdb') in 0.018078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_AlbedoTransparency.png
+  artifactKey: Guid(48f33cc82fde24e48a09b52664c75496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_AlbedoTransparency.png using Guid(48f33cc82fde24e48a09b52664c75496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449a90b491ad83a740b0f7f5bb49dbd5') in 0.016527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Bed_MetallicSmoothness.png
+  artifactKey: Guid(024573a50bd108c4ebee965354b24334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Bed_MetallicSmoothness.png using Guid(024573a50bd108c4ebee965354b24334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b53ba17880e6b2d936633ac82cb769') in 0.018578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_AlbedoTransparency.png
+  artifactKey: Guid(2fc6a63b37436184490e4aea44c3855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_AlbedoTransparency.png using Guid(2fc6a63b37436184490e4aea44c3855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331825740e8baf49aacd8b84a48fcd21') in 0.018630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Drawers_MetallicSmoothness.png
+  artifactKey: Guid(07e286671e6e4af4c9beefb118e6cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Drawers_MetallicSmoothness.png using Guid(07e286671e6e4af4c9beefb118e6cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e33c59426040c62773301656b321f7') in 0.018524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Lamp_Lamp_MetallicSmoothness.png
+  artifactKey: Guid(0381daceb64804a4b8bb7116804f3db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Lamp_Lamp_MetallicSmoothness.png using Guid(0381daceb64804a4b8bb7116804f3db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e84ed9da6dc6ad7f02029dc5b64761d') in 0.018730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_MetallicSmoothness.png
+  artifactKey: Guid(4adeb6cb264067a4c8ed37083715a715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_MetallicSmoothness.png using Guid(4adeb6cb264067a4c8ed37083715a715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b24184c7fcda755c99d5205741baed0') in 0.015815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Dresser_MetallicSmoothness.png
+  artifactKey: Guid(e1b86614f02a4c94b8a296aaffc49574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Dresser_MetallicSmoothness.png using Guid(e1b86614f02a4c94b8a296aaffc49574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3249afc2bf91392191463288b313629') in 0.017805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Toilet_Toilet_MetallicSmoothness.png
+  artifactKey: Guid(d53fa5d0926f1b747b0e485fffc95565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Toilet_Toilet_MetallicSmoothness.png using Guid(d53fa5d0926f1b747b0e485fffc95565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385de650dbfbd36cd60c92d26fe446be') in 0.018895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_Normal.png
+  artifactKey: Guid(ee7c97a4697dd3a41ab45e2bbc8f29a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_Normal.png using Guid(ee7c97a4697dd3a41ab45e2bbc8f29a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6cb371c540dff44a7882c5a2241451') in 0.015163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Footstool_Footstool_AlbedoTransparency.png
+  artifactKey: Guid(27980587a73077f4991f791ce4d3935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Footstool_Footstool_AlbedoTransparency.png using Guid(27980587a73077f4991f791ce4d3935d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caa69cca03d140982f5ea52c78b7c1f') in 0.015783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Lamp_Lamp_Emission.png
+  artifactKey: Guid(e94d1ae9755a6bf4598835f2899957ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Lamp_Lamp_Emission.png using Guid(e94d1ae9755a6bf4598835f2899957ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62af8765d48ce8792016ac77e9c2967b') in 0.016114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.653825 seconds.
+  path: Assets/Bed & Bath Furniture Pack/Models/Dresser.obj
+  artifactKey: Guid(e220328c34bca0348a4ada832cf83493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bed & Bath Furniture Pack/Models/Dresser.obj using Guid(e220328c34bca0348a4ada832cf83493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d8f6cbbfa20e4eecf7ee8278c02335') in 0.118546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ƒXƒŒƒbƒh‚ÌI—¹‚Ü‚½‚ÍƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ì—v‹‚É‚æ‚Á‚ÄAI/O ˆ—‚Í’†~‚³‚ê‚Ü‚µ‚½B
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
