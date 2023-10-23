@@ -5,20 +5,21 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody rb;
-    private Camera camera;
+    private Transform camera;
     public float speed;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        camera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
+        camera = GameObject.FindWithTag("MainCamera").transform;
     }
 
     void Update()
     {
+        rb.velocity = Vector3.zero; //ŠŠ‚è–hŽ~
         float x_rotation = Input.GetAxis("Mouse X");
         float y_rotation = Input.GetAxis("Mouse Y");
-        transform.Rotate(0, x_rotation * 2f, 0);
-        camera.transform.Rotate(-y_rotation * 2f, 0, 0);
+        transform.Rotate(0, x_rotation * 2.5f, 0);
+        camera.Rotate(-y_rotation * 2.5f, 0, 0);
 
         var velocity = Vector3.zero;
         if (Input.GetKey("w")) velocity.z = speed;
